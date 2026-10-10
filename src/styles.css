@@ -4,3 +4,31 @@
 
 
 .profile-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(270px,1fr);gap:22px;align-items:start}.profile-heading{display:flex;align-items:center;gap:18px;margin-bottom:25px}.profile-heading h2{margin:0 0 5px}.profile-heading p{margin:0;color:#66766f;font-size:13px}.profile-avatar{width:70px;height:70px;border-radius:50%;background:#e4f4ee;color:#0b3b2c;display:grid;place-items:center;flex-shrink:0}.profile-notice{display:flex;align-items:center;gap:10px;background:#e4f4ee;color:#0b3b2c;border-radius:9px;padding:14px;font-size:13px;margin-bottom:26px}.profile-section h3,.profile-side h3{margin-bottom:14px}.profile-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.profile-fields>div{border:1px solid #e5eae7;border-radius:9px;padding:14px;min-width:0}.profile-fields small{display:block;color:#68766f;font-size:12px;margin-bottom:7px}.profile-fields strong{font-size:13px;overflow-wrap:anywhere;color:#344b40}.profile-side{display:grid;gap:20px}.profile-side p{font-size:13px;color:#65766d}.profile-side button{margin-top:9px}.profile-side .ui-card{display:flex;flex-direction:column;align-items:flex-start}@media(max-width:850px){.profile-layout{grid-template-columns:1fr}}@media(max-width:520px){.profile-fields{grid-template-columns:1fr}.profile-heading{align-items:flex-start}}
+
+
+/* Login inspirado na tela do projeto Eletro-Recicla-Frontend; isolado das demais telas. */
+.reference-login-wrapper{display:flex;justify-content:center;align-items:center;padding:48px 20px;background:#f7f9f8;min-height:570px}
+.reference-login-container{display:flex;max-width:960px;width:100%;background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.05);overflow:hidden;border:1px solid #e8edea}
+.reference-login-card{flex:1.15;min-width:0;padding:44px 48px;text-align:left}
+.reference-login-card h1{font-size:26px;font-weight:800;color:#162a22;margin:0 0 6px;letter-spacing:-.5px}
+.reference-login-subtitle{font-size:13.5px;color:#6b7280;margin:0 0 24px}
+.reference-social-buttons{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.reference-social-buttons button{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;height:42px;background:#fff;border:1px solid #d1d5db;border-radius:8px;font-size:13.5px;font-weight:600;color:#374151;cursor:pointer}
+.reference-social-buttons button:hover{background:#f9fafb}.reference-google{font-weight:800;font-size:16px;color:#4285f4}.reference-gov{background:#0c326f;color:#fff;font-size:10px;font-weight:800;padding:2px 6px;border-radius:4px}
+.reference-divider{display:flex;align-items:center;gap:12px;margin:18px 0;color:#9ca3af;font-size:12px;text-transform:uppercase}.reference-divider:before,.reference-divider:after{content:"";height:1px;background:#e5e7eb;flex:1}
+.reference-login-form{display:flex;flex-direction:column;gap:9px}.reference-login-form>label:not(.reference-remember),.reference-label-row label{font-size:13px;font-weight:600;color:#374151}
+.reference-login-form>input,.reference-password input{height:42px;padding:0 14px;border:1px solid #d1d5db;border-radius:8px;font-size:13.5px;color:#111827;background:#fafafa;outline:none;width:100%;box-sizing:border-box}
+.reference-login-form input:focus{border-color:#10b981;box-shadow:0 0 0 3px rgba(16,185,129,.15)}
+.reference-label-row{display:flex;justify-content:space-between;align-items:center;margin-top:9px}.reference-label-row button{border:0;background:none;color:#10b981;font-size:12px;font-weight:600;cursor:pointer}
+.reference-password{position:relative}.reference-password input{padding-right:45px}.reference-password button{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;color:#9ca3af;cursor:pointer;display:flex;padding:4px}
+.reference-remember{display:flex;align-items:center;gap:8px;font-size:12.5px;color:#4b5563;margin:9px 0}.reference-remember input{width:16px;height:16px;accent-color:#10b981}
+.reference-submit{height:44px;background:#192e27;color:#fff;border:0;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;margin-top:8px}.reference-submit:hover{background:#12211c}
+.reference-signup{font-size:13px;color:#6b7280;text-align:center;margin:20px 0 0}.reference-signup button{background:none;border:0;color:#10b981;font-weight:700;cursor:pointer}
+.reference-notice{background:#e4f4ee;color:#0b3b2c;padding:12px;border-radius:8px;font-size:12px}
+.reference-preview{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:16px}.reference-preview button{background:none;border:0;color:#547263;font-size:11px;cursor:pointer;text-decoration:underline}
+.reference-login-banner{flex:.95;min-width:0;background:linear-gradient(135deg,#182e26 0%,#0d1a15 100%);position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:40px 36px;color:#fff}
+.reference-login-banner:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.06) 1px,transparent 1px);background-size:18px 18px;pointer-events:none}
+.reference-banner-brand,.reference-banner-body{position:relative;z-index:1}.reference-banner-brand{display:flex;align-items:center;gap:8px;font-size:16px}.reference-banner-icon{width:28px;height:28px;background:rgba(74,222,128,.2);border-radius:6px;display:grid;place-items:center;color:#4ade80}
+.reference-banner-body h2{font-size:26px;font-weight:800;line-height:1.25;color:#fff;margin:0 0 14px}.reference-banner-body p{font-size:13.5px;line-height:1.6;color:#b1c7bf;margin:0}
+@media(max-width:868px){.reference-login-banner{display:none}.reference-login-card{padding:32px 24px}}
+@media(max-width:520px){.reference-login-wrapper{padding:20px 12px}.reference-login-card{padding:28px 18px}}
