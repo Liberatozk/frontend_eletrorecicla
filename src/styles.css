@@ -32,3 +32,12 @@
 .reference-banner-body h2{font-size:26px;font-weight:800;line-height:1.25;color:#fff;margin:0 0 14px}.reference-banner-body p{font-size:13.5px;line-height:1.6;color:#b1c7bf;margin:0}
 @media(max-width:868px){.reference-login-banner{display:none}.reference-login-card{padding:32px 24px}}
 @media(max-width:520px){.reference-login-wrapper{padding:20px 12px}.reference-login-card{padding:28px 18px}}
+
+/* ---- Formulários de Empresa e Ponto de Coleta ---- */
+.input-label select,.input-label textarea{width:100%;background:#f4f6f5;border:1px solid #e4eae7;border-radius:7px;margin-top:11px;font:inherit;font-size:12px;color:#172b25}
+.input-label select{height:44px;padding:0 13px}
+.input-label textarea{padding:12px 13px;min-height:96px;resize:vertical}
+.field-help{font-size:11px;color:#7d8d85;margin:-8px 0 0}
+.form-section-title{font-size:13px;font-weight:700;color:#0b3b2c;margin:0 0 4px}
+.materials-checks{display:grid;grid-template-columns:1fr 1fr;gap:2px 16px}
+.materials-checks .checkbox-row{margin-top:12px}
